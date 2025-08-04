@@ -11,7 +11,7 @@ export default function CounterPage() {
     <div className="container text-center">
       <h2>Counter Page</h2>
       <p>Counter: {count}</p>
-      <button className="btn btn-success" onClick={increase}>
+      <button onClick={increase}>
         Increase
       </button>
     </div>
